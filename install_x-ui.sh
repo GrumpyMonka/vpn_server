@@ -16,6 +16,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.
 # Настройка фаервола
 ufw allow 80
 ufw allow 443
+ufw allow 2096
 ufw enable
 
 # Перезапуск службы 3X-UI
